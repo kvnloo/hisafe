@@ -270,8 +270,8 @@ annualPlot	SafePlot	annualNitrogenUptakeByCrops	kg N 	Annual cumulation of nitro
 annualPlot	SafePlot	annualNitrogenRunOff	kg N ha-1	Annual cumulation of nitrogen RunOff  on the plot	22	1
 annualPlot	SafePlot	annualNitrogenLeachingBottom	kg N ha-1	Annual cumulation of nitrogen Leaching Bottom  on the plot	23	1
 annualPlot	SafePlot	annualNitrogenLeachingWaterTable	kg N ha-1	Annual cumulation of nitrogen Leaching to WaterTable  on the plot	24	1
-annualPlot	SafePlot	annualWaterUptakeInSaturationByTrees	kg N ha-1	Annual cumulation of water uptake by trees  on saturated voxels of the plot	25	1
-annualPlot	SafePlot	annualWaterUptakeInSaturationByCrops	kg N ha-1	Annual cumulation of water uptake by crops  on saturated voxels of the plot	26	1
+annualPlot	SafePlot	annualWaterUptakeInSaturationByTrees	liters	Annual cumulation of water uptake by trees  on saturated voxels of the plot	25	1
+annualPlot	SafePlot	annualWaterUptakeInSaturationByCrops	liters	Annual cumulation of water uptake by crops  on saturated voxels of the plot	26	1
 plot	SafePlot	totalCropBiomass	t ha-1	Total biomass of the plot	1	1
 plot	SafePlot	meanCropBiomass	t ha-1	Mean biomass of the plot	2	1
 plot	SafePlot	totalCropYield	t ha-1	Total yield of the plot	3	1
@@ -566,9 +566,9 @@ trees	SafeTree	nbCellsBellow	-	nbCellsBellow	204	1
 trees	SafeTree	carbonFoliageLitterAllPlot	kg C	carbonFoliageLitterAllPlot	205	1
 trees	SafeTree	carbonBranchesLitterAllPlot	kg C	carbonBranchesLitterAllPlot	206	1
 trees	SafeTree	carbonFruitLitterAllPlot	kg C	carbonFruitLitterAllPlot	207	1
-trees	SafeTree	carbonFoliageLitterUnderTree	kg N	carbonFoliageLitterUnderTree	208	1
-trees	SafeTree	carbonBranchesLitterUnderTree	kg N	carbonBranchesLitterUnderTree	209	1
-trees	SafeTree	carbonFruitLitterUnderTree	kg N	carbonFruitLitterUnderTree	210	1
+trees	SafeTree	carbonFoliageLitterUnderTree	kg C	carbonFoliageLitterUnderTree	208	1
+trees	SafeTree	carbonBranchesLitterUnderTree	kg C	carbonBranchesLitterUnderTree	209	1
+trees	SafeTree	carbonFruitLitterUnderTree	kg C	carbonFruitLitterUnderTree	210	1
 voxels	SafeVoxel	thickness	m	Voxel thickness	1	1
 voxels	SafeVoxel	volume	m3	Voxel volume	2	1
 voxels	SafeVoxel	bulkDensity	kg m-3	Soil bulk densiity (including fine soil and stones)	3	1
