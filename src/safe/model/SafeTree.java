@@ -1,13 +1,13 @@
 /** 
- * Hi-SAFE : A 3D Agroforestry Model for Integrating Dynamic Tree–Crop Interactions
+ * Hi-SAFE : A 3D Agroforestry Model for Integrating Dynamic Treeâ€“Crop Interactions
  * 
  * Copyright (C) 2000-2025 INRAE - CC-BY License
  * 
  * LIST OF AUTHORS
  * --------------- 
- * Christian Dupraz 1, Kevin J.Wolz 1 , Isabelle Lecomte 1, Grégoire Talbot 1, Nicolas Barbault 1, 
- * Grégoire Vincent 2 , Rachmat Mulia 3, François Bussière 4, Harry Ozier-Lafontaine 4,
- * Sitraka Andrianarisoa 1, Nick Jackson 5, Gerry Lawson 5, Nicolas Dones 6, Hervé Sinoquet 6,
+ * Christian Dupraz 1, Kevin J.Wolz 1 , Isabelle Lecomte 1, GrÃ©goire Talbot 1, Nicolas Barbault 1, 
+ * GrÃ©goire Vincent 2 , Rachmat Mulia 3, FranÃ§ois BussiÃ¨re 4, Harry Ozier-Lafontaine 4,
+ * Sitraka Andrianarisoa 1, Nick Jackson 5, Gerry Lawson 5, Nicolas Dones 6, HervÃ© Sinoquet 6,
  * Betha Lusiana 3, Degi Harja 3, Suzy Domenicano 7 , Francesco Reyes 1 , Marie Gosme 1 ,
  * Meine Van Noordwijk 3, Benoit Courbaud 8
  *
@@ -16,9 +16,9 @@
  * 3 ICRAF, Bogor 16001, Indonesia
  * 4 INRA (UR ASTRO 1231) Centre Antilles-Guyane, Petit-Bourg, 97170 Guadeloupe, France
  * 5 CEH, NERC,Wallingford OX10 8BB, UK
- * 6 INRA (UMR-PIAF), Université Clermont Auvergne, 63000 Clermont-Ferrand, France
- * 7 Centre d’étude de la forêt, Université du Quebec, Montreal H2X 3Y5, Canada
- * 8 CEMAGREF, Mountain Ecosystems and Landcapes Research Unit, Saint-Martin-d’Hères, France
+ * 6 INRA (UMR-PIAF), UniversitÃ© Clermont Auvergne, 63000 Clermont-Ferrand, France
+ * 7 Centre dâ€™Ã©tude de la forÃªt, UniversitÃ© du Quebec, Montreal H2X 3Y5, Canada
+ * 8 CEMAGREF, Mountain Ecosystems and Landcapes Research Unit, Saint-Martin-dâ€™HÃ¨res, France
  *
  *----------------------------------------------------------------------------------------------
  * 
@@ -26,15 +26,15 @@
  * Hi-SAFE is free software under the terms of the CC-BY License as published by the Creative Commons Corporation
  *
  * You are free to:
- *		Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
- *		Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+ *		Share â€” copy and redistribute the material in any medium or format for any purpose, even commercially.
+ *		Adapt â€” remix, transform, and build upon the material for any purpose, even commercially.
  *		The licensor cannot revoke these freedoms as long as you follow the license terms.
  * 
  * Under the following terms:
- * 		Attribution — 	You must give appropriate credit , provide a link to the license, and indicate if changes were made . 
+ * 		Attribution â€” 	You must give appropriate credit , provide a link to the license, and indicate if changes were made . 
  *               		You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
  *               
- * 		No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+ * 		No additional restrictions â€” You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
  *               
  * Notices:
  * 		You do not have to comply with the license for elements of the material in the public domain or where your use is permitted 
@@ -70,9 +70,9 @@ import jeeb.lib.util.Vertex3d;
 /**
  * TREE object 
  * @author : Christian DUPRAZ - INRA Montpellier France - 2002 : initialization - phenology - pruning - root pruning - trimming
- * @author : Grégoire VINCENT - IRD  Montpellier France - 2003 : C allocation and allometric growth
+ * @author : GrÃ©goire VINCENT - IRD  Montpellier France - 2003 : C allocation and allometric growth
  * @author : Rachmat MULIA    - ICRAF Bogor Indonesia   - 2004 : fine root cellular automata 
- * @author : Grégoire TALBOT  - INRA Montpellier France - 2009 : C allocation - allometric growth - root growth modification 
+ * @author : GrÃ©goire TALBOT  - INRA Montpellier France - 2009 : C allocation - allometric growth - root growth modification 
  * @author : Tristan GERAULT  - INRA Montpellier France - 2021 : nitrogen fixation module (V1) 
  * @author : Nicolas BARBAULT - INRA Montpellier France - 2021 : evergreen tree and fruit module 
  */
@@ -2467,8 +2467,8 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 
 	/**
 	 * C allocation module
-	 * @author Grégoire VINCENT (IRD) - August 2003
-	 * @author Grégoire TALBOT (INRA SYSTEM) - OCtober 2010
+	 * @author GrÃ©goire VINCENT (IRD) - August 2003
+	 * @author GrÃ©goire TALBOT (INRA SYSTEM) - OCtober 2010
      * @param stand Reference on SafeStand object
      * @param generalParameters Reference on SafeGeneralParameters object
      * @param simulationDay Julian day of simulation
@@ -2965,8 +2965,8 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 
 	/**
 	 * Allometric growth (dbh, height, crowndiameter)
-	 * @author Grégoire VINCENT (IRD) - August 2003
-	 * @author Grégoire TALBOT (INRA SYSTEM) - OCtober 2010
+	 * @author GrÃ©goire VINCENT (IRD) - August 2003
+	 * @author GrÃ©goire TALBOT (INRA SYSTEM) - OCtober 2010
      * @param stand Reference on SafeStand object
      * @param generalParameters Reference on SafeGeneralParameters object
 	 */
@@ -3144,7 +3144,7 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 	/**
 	 * Cellular automata for fine roots growth : calculation of additional root length to each voxel already rooted
 	 * @author Rachmat MULIA (ICRAF) - August 2003
-	 * @author Grégoire TALBOT (INRA SYSTEM) - 2008
+	 * @author GrÃ©goire TALBOT (INRA SYSTEM) - 2008
 	 * @param carbonFineRootsIncrement Carbon increment of the day for fine roots (kg c) 
 	 */
 	private double [] calculateAdditionalRootToVoxels (double carbonFineRootsIncrement) {	
@@ -3316,7 +3316,7 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 	/**
 	 * Cellular automata for fine roots growth : root colonisation
 	 * @author Rachmat MULIA (ICRAF) - August 2003
-	 * @author Grégoire TALBOT (INRA SYSTEM) - 2008
+	 * @author GrÃ©goire TALBOT (INRA SYSTEM) - 2008
 	 * @param simulationDay Julain day of simulation
 	 * @param additionalRootLength Table of additional root length for each rooted voxel (m)
 	 */
@@ -3748,7 +3748,7 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 			setNitrogenFoliage(getNitrogenFoliageCohort(index)-frostNitrogenSenescence, index);	
 			if (this.getPhenologicalStage() < 3) {
 				addNitrogenFoliageSen(frostNitrogenSenescence); 
-				if (leavesResiduesSpreading==0)addNitrogenFoliageExported(frostCarbonSenescence); 
+				if (leavesResiduesSpreading==0)addNitrogenFoliageExported(frostNitrogenSenescence); 
 				if (leavesResiduesSpreading==1)addNitrogenFoliageLitterUnderTree(frostCarbonSenescence); 
 				if (leavesResiduesSpreading==2)addNitrogenFoliageLitterAllPlot(frostCarbonSenescence); 
 			} 
@@ -4676,7 +4676,7 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 	}
 	/**
 	 * Daily calculation of PAR intercepted by a tree depending climatic entries
-	 * @author Grégoire TALBOT (INRA SYSTEM) - 2007
+	 * @author GrÃ©goire TALBOT (INRA SYSTEM) - 2007
 	 * @param dayClimat Reference of SafeDailyClimat object 
 	 * @param generalParameters Reference of SafeGeneralParameters object 
 	 */
@@ -5449,7 +5449,7 @@ public class SafeTree extends SpatializedTree implements Speciable, SimpleCrownD
 	// somme des pool du jour J-1
 	//- somme des senescences
 	//- somme des exportations (pruning)
-	//+ somme du carbone allouÃ©
+	//+ somme du carbone allouÃƒÂ©
 	//- somme des pool du jour J
 	public double getVerifCarbonBilan() {
 		double bilan = getCarbonTotalBefore()
